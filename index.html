@@ -5,48 +5,51 @@
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="stylesheet" href="assets/css/main.css"/>
+        <link href="static/css/jquery.progresstracker.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
 	</head>
-	<body>
-
-		<!-- Header -->
-        <!-- https://wpbrigade.com/integrate-a-wordpress-blog-in-your-existing-website/ -->
-			<header id="header">
-				<h1>Logo</h1>
-				<nav>
-					<ul>
-						<li><a href="#one">Quiénes somos</a></li>
-						<li><a href="#two">Qué ofrecemos</a></li>
-						<li><a href="#three">Nuestra causa</a></li>
-						<li><a href="#four">Contacto</a></li>
-					</ul>
-				</nav>
-			</header>
-
+	<body>    
 		<!-- Intro -->
 			<section id="intro" class="main style1 dark fullscreen">
+				<div class="sc0">
+                <img src="images/logo.png" width="120" height="120" class="logo"> 
+                </div>
+                <h1><br>&nbsp;&nbsp;&nbsp;YO TAMBIÉN</h1>
 				<div class="content">
+                	<br><br><br><br><br>
 					<header>
-						<h3>Una asosiación para entrenar a gobiernos, empresas y organizaciones sobre los beneficios de ser inclusivos.</h3>
+						<h3>UNA ASOCIACIÓN PARA ENTRENAR A GOBIERNOS, EMPRESAS <br>Y ORGANIZACIONES SOBRE LOS BENEFICIOS DE SER INCLUSIVOS.</h3>
 					</header>
-                    <p></p>
+                    <p>
+                    	<br><br><br><br><br>
+                        <!-- Icons -->
+                        <ul class="actions">
+                            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                            &nbsp;&nbsp;&nbsp;
+                        </ul>
+                        Facebook&nbsp;&nbsp;&nbsp;Instagram&nbsp;&nbsp;&nbsp;Twitter
+                    </p>
                     
-                    <!-- Speaker1 -->
-                    <div id="speaker1" class="speaker"></div>
-                        <audio id="player">
-                            <source src="http://madperfect.com/audio/explosion.mp3" type="audio/mp3" />
-                            <source src="http://madperfect.com/audio/explosion.ogg" type="audio/ogg" />
-                        </audio>
-					<footer>
-						<a href="#one" class="button style2 down">More</a>
-					</footer>
-				</div>
+                    
 			</section>
+            <div class="scrolldown">
+	            <img src="images/down.png" width="12" height="12" class="sdown"> 
+            </div>
+           
 
 		<!-- One -->
 			<section id="one" class="main style2 right dark fullscreen">
-				<div class="content box style2">
+            	<div class="content" id="sc1">
+                <img src="images/logo.png" width="100" height="100" class="logo">
+                </div>
+				<div class="pt-section content box style2" data-name="Section One" id="ptsection-one">
 					<header>
-						<h2>QUÉ HACEMOS</h2>
+						<h2>QUÉ HACEMOS </h2> 
 					</header>
                     <div style="font-size:12px">
 					<p style="line-height:normal">Cursos y talleres. Uno corto dirigido a medios con sugerencias de cómo cubrir la discapacidad y el lenguaje no discriminatorio para hacerlo. Talleres para organizaciones de la sociedad civil para ayudarlos a tener una relación más fluída con la prensa, para aprender a usar herramientas básicas y redes sociales.</p>
@@ -57,20 +60,27 @@ alumnos con discapacidad.</p>
 					<p style="line-height:normal"> Cabildeo de leyes. Para incluir a personas con discapacidad dentro de todas las leyes, y de preferencia no en leyes especiales. También para advertir cuando una ley está mal planteada y por qué. Para implementar la Convención sobre los Derechos de las personas con discapacidad. Accesibilidad Web. Con una alianza con Hear Colors, apoyamos  la capacitación de los creadores de páginas web para lograr que todas sean accesibles para personas con discapacidad. </p>
                     <p style="line-height:normal">Escribimos del tema. Y estamos preparando un libro.</p>
                     </div>
+                    <div style="padding-left:35em;">
+                    <button class="button">Donativos</button>
+                    </div>
 				</div>
-                
-				<a href="#two" class="button style2 down anchored">Next</a>
+<!--				<a href="#two" class="button style2 down anchored">Next</a> -->
+				<div class="content" id="navbtn"><a href="#"><i class="fa fa-th"></i></a></div>
 			</section>
 
 		<!-- Two -->
 			<section id="two" class="main style2 right dark fullscreen">
-				<div class="content box style2">
+            <div class="content" id="sc1">
+            <img src="images/logo.png" width="100" height="100" class="logo">
+            </div>
+				<div class="pt-section content box style2" data-name="Section Two" id="ptsection-two">
 					<header>
 						<h2>QUIÉNES SOMOS</h2>
 					</header>
                     <h3>Bárbara Anderson</h3>
+                    
                     <div style="font-size:12px">
-					<p style="line-height:normal">Argentina de nacimiento, mexicana por elección y periodista por testaruda. Hace 23 años que me dedico a esta profesión en un rubro que me fascina: la economía y los negocios. Fui editora general de la revista Expansión por 8 años, luego dirigí todo el conjunto de revistas femeninas de Time Inc/Grupo Expansión hasta que en 2014 acepté la invitación de Grupo Milenio para ser su directora de Innovación Editorial.</p>
+					<p style="line-height:normal"><br>Argentina de nacimiento, mexicana por elección y periodista por testaruda. Hace 23 años que me dedico a esta profesión en un rubro que me fascina: la economía y los negocios. Fui editora general de la revista Expansión por 8 años, luego dirigí todo el conjunto de revistas femeninas de Time Inc/Grupo Expansión hasta que en 2014 acepté la invitación de Grupo Milenio para ser su directora de Innovación Editorial.</p>
 					<p style="line-height:normal"> Tengo una columna en el periódico y un programa de TV sobre empresas y negocios, entre muchas otrs actividades que nutren a esta compañía. También soy desde hace 15 años corresponsal en México de una red de radios argentinas, Cadena 3. En 2011nació Lucca y con él también nació una nueva vocación: la pelea por los derechos de las personas con discapacidad.</p>
                     <p style="line-height:normal"> Lucca tiene parálisis cerebral infantil y su condición me enfrentó a montaña de retos personales, familiares, laborales y sociales. Nadie está preparado para llevar adelante una vida fuera de lo ‘estándar’.</p>
                     <p style="line-height:normal"> Todo es cuesta arriba: desde entender la discapacidad, encontrar médicos, conseguir insumos hasta tener compañeros de trabajo-jefes-amigos-parientes que entiendan las complicaciones que significa no tener horarios, no saber como será el siguiente día y estar luchando para conseguir desde flextime en la oficina hasta un espacio en una guardería.</p>
@@ -79,30 +89,38 @@ alumnos con discapacidad.</p>
                     <p style="line-height:normal"> Ser periodista ayuda: una es curiosa compulsiva, no tiene miedo a llegar hasta el presidente por una buena historia (o una buena causa) y sabeos hacer mucho con poco. Comunicar es una excelente manera de dar visibilidad a un grupo que nadie ve, si no le toca de cerca. Me di cuenta que me gusta ayudar, que no me cansa cabildear contra las injusticias, que puedo sensibilizar a otros sobre el tema.</p>
 				</div>
 				</div>
-				<a href="#three" class="button style2 down anchored">Next</a>
+				<!-- <a href="#three" class="button style2 down anchored">Next</a> -->
+                <div class="content" id="navbtn"><a href="#"><i class="fa fa-th"></i></a></div>
 			</section>
-            
+    
          <!-- Three -->
 			<section id="three" class="main style2 right dark fullscreen">
-				<div class="content box style2">
+            <div class="content" id="sc1">
+            <img src="images/logo.png" width="100" height="100" class="logo">
+            </div>
+				<div class="pt-section content box style2" data-name="Section Three" id="ptsection-three">
 					<header>
 						<h2>QUIÉNES SOMOS</h2>
 					</header>
                     <h3>Katia D'Artigues</h3>
                     <div style="font-size:12px">
-					<p style="line-height:normal">Periodista desde que tenía 20 años, me cambió la vida un 12 de agosto de 2006. “Tu hijo tiene síndrome de Down”, dijo un pediatra. Todo comenzó a verse diferente. Si de por sí ser madre primeriza representa un reto, tener un hijo con discapacidad lo adicionó y ahora a once años de distancia, estoy segura que para bien.</p>
+					<p style="line-height:normal"><br>Periodista desde que tenía 20 años, me cambió la vida un 12 de agosto de 2006. “Tu hijo tiene síndrome de Down”, dijo un pediatra. Todo comenzó a verse diferente. Si de por sí ser madre primeriza representa un reto, tener un hijo con discapacidad lo adicionó y ahora a once años de distancia, estoy segura que para bien.</p>
                     <p style="line-height:normal"> Comencé a escribir del tema, para entender y luego compartir. Como periodista política, también a preguntarle a mis interlocutores del tema que aún es muy invisible en la sociedad, de cómo incluir a todos en la sociedad.</p>
                     <p style="line-height:normal"> Comencé a ser un puente entre organizaciones de y para personas con discapacidad y la clase política y los medios.</p>
                     <p style="line-height:normal"> Con ayuda de especialistas varios, también aprendí a cabildear leyes (hasta el momento dos Reformas Constitucionales y una Ley Nacional).</p>
                     <p style="line-height:normal"> Vaya, hasta fui diputada electa constituyente de la Ciudad de México por el tema de llevar los derechos de las personas con discapacidad a la primera Constitución de la ciudad en la que vivo.</p>
 				</div>
 				</div>
-				<a href="#four" class="button style2 down anchored">Next</a>
+<!--				<a href="#four" class="button style2 down anchored">Next</a> -->
+				<div class="content" id="navbtn"><a href="#"><i class="fa fa-th"></i></a></div>
 			</section>
-            
+    
         <!-- Four -->
 			<section id="four" class="main style2 right dark fullscreen">
-				<div class="content box style2">
+            <div class="content" id="sc1">
+            <img src="images/logo.png" width="100" height="100" class="logo">
+            </div>
+				<div class="pt-section content box style2" data-name="Section Four" id="ptsection-four">
 					<header>
 						<h2>QUÉ SOÑAMOS</h2>
 					</header>
@@ -112,77 +130,69 @@ alumnos con discapacidad.</p>
                     <p style="line-height:normal"> Donde “Yo También” sea algo dado.</p>
 					</div>
 				</div>
-				<a href="#work" class="button style2 down anchored">Next</a>
+<!--				<a href="#work" class="button style2 down anchored">Next</a> -->
+	            <div class="content" id="navbtn"><a href="#"><i class="fa fa-th"></i></a></div>
 			</section>
             
-			<!-- Blog -->
-			<section id="blog" class="main style1 dark fullscreen">
-				<div class="content">
-					<header>
-						<h2>BLOG</h2>
-					</header>
-                    <p></p>
-                    
-                    <?php 
-                    define('WP_USE_THEMES', false);
-                    require('blog/wp-blog-header.php');
-					?>
-                    
-                    <?php
-
-                        $number_of_posts = 5; //define posts
-                        $args = array( 'numberposts' => $number_of_posts );
-                        $recent_posts = wp_get_recent_posts( $args );
-                        foreach( $recent_posts as $recent_post ){
-                        echo "<span>".$recent_post['post_date']."</span> <br>";
-                        echo "<h3>".$recent_post['post_title']."</h3>";
-                        echo  "<p>".$recent_post['post_content']."</p><br><br>";
-                        
-                        }
-                    
-                    ?>
-                    
-					<footer>
-						<a href="#one" class="button style2 down">More</a>
-					</footer>
-				</div>
-			</section>
-            
+			<!--Blog-->
+                     
             <!-- Fifth -->
 			<section id="fifth" class="main style2 right dark fullscreen">
-				<div class="content box style2">
+            <div class="content" id="sc1">
+            <img src="images/logo.png" width="100" height="100" class="logo">
+            </div>
+				<div class="pt-section content box style2" data-name="Section Five" id="ptsection-five">
 					<header>
 						<h2>CONTACTO</h2>
 					</header>
                     <div style="font-size:14px">
-					<p style="line-height:normal"> Facebook Instagram Twitter </p>
                     <p style="line-height:normal"> Correo electrónico: dayton.gibson@gmail.com</p>
-                    <p style="line-height:normal"> Teléfonos: 282-763-8019, 260-333-3555</p>
+                    <p style="line-height:normal"> Teléfonos: 282-763-8019 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;260-333-3555</p>
                     <p style="line-height:normal"> Dirección: 41 Dare Fall Suite 190</p>
 					</div>
+                    <p>
+                    	<br>
+                        <!-- Icons -->
+                        <ul class="actions">
+                            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                            &nbsp;&nbsp;&nbsp;
+                        </ul>
+                        Facebook&nbsp;&nbsp;&nbsp;Instagram&nbsp;&nbsp;&nbsp;Twitter
+                    </p>
 				</div>
-				<a href="#work" class="button style2 down anchored">Next</a>
+				<!-- <a href="#work" class="button style2 down anchored">Next</a> -->
+                <div class="content" id="navbtn"><a href="#"><i class="fa fa-th"></i></a></div>
 			</section>
-            
+
 		<!-- Footer -->
-			<footer id="footer">
-
-				<!-- Icons -->
-					<ul class="actions">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-					</ul>
-
-				<!-- Menu -->
-					<ul class="menu">
-						<li>&copy; Copyright</li><li>Design: </li>
-					</ul>
-
-			</footer>
+			<section id="footer" class="main style1 dark fullscreen">
+				<div class="sc0 footalign left">
+                <img src="images/logo.png" width="120" height="120" class="logo"> 
+                </div>
+                <div class="content style1">
+					<p>
+                    	<h1>BLOG</h1>
+                        <h1>DONATIVOS</h1>
+                        <br>
+                        <!-- Icons -->
+                        <ul class="actions">
+                            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                            &nbsp;&nbsp;&nbsp;
+                            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            
+                        </ul>
+                        Facebook&nbsp;&nbsp;&nbsp;Twitter&nbsp;&nbsp;&nbsp;Instagram
+                    </p>
+			</div>
+            <div class="content footalign right" id="navbtn"><a href="#"><i class="fa fa-th"></i></a></div>
+			</section>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -191,8 +201,7 @@ alumnos con discapacidad.</p>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			<script src="static/js/jquery.progresstracker.js"></script>
 	</body>
 </html>
